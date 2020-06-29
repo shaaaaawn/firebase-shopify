@@ -5,7 +5,7 @@
 
 ## Description
 
-Handle [Shopify Webhooks](https://github.com/nestjs/nest) with Serverless Firebase Functions.
+Starter App for Handling [Shopify Webhooks](https://github.com/nestjs/nest) with Serverless Firebase Functions.
 
 ## Shopify Webhook Configuration
 
@@ -31,7 +31,7 @@ $ cd functions && npm run firebase
 ## Deploy
 
 ```bash
-$ fireebase deploy
+$ firebase deploy
 ```
 
 ## List of Shopify Webhook Events

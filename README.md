@@ -28,7 +28,7 @@ $ cd functions && npm install
 $ cd functions && npm run firebase
 ```
 
-##Deploy
+## Deploy
 ```bash
 $ fireebase deploy
 ```

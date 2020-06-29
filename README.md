@@ -25,7 +25,7 @@ $ cd functions && npm install
 
 ```bash
 # development with watch
-$ cd functions && npm run firebase
+$ cd functions && npm run functions
 ```
 
 ## Deploy

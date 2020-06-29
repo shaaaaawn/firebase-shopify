@@ -7,7 +7,7 @@
 
 Handle [Shopify Webhooks](https://github.com/nestjs/nest) with Serverless Firebase Functions.
 
-## Shopify App Configuration
+## Shopify Webhook Configuration
 
 - Login to Shopify Store
 - From your Shopify admin, go to Settings > Notifications.
@@ -29,6 +29,45 @@ $ cd functions && npm run firebase
 ```
 
 ## Deploy
+
 ```bash
 $ fireebase deploy
 ```
+
+## List of Shopify Webhook Events
+
+- Cart creation: a webhook will be sent every time a cart is created.
+- Cart update: a webhook will be sent every time a cart is updated.
+- Checkout creation: a webhook will be sent every time a checkout is created.
+- Checkout deletion: a webhook will be sent every time a checkout is deleted.
+- Checkout update: a webhook will be sent every time a checkout is updated.
+- Collection creation: a webhook will be sent every time a collection is created.
+- Collection deletion: a webhook will be sent every time a collection is deleted.
+- Collection update: a webhook will be sent every time a collection is updated.
+- Customer group creation: a webhook will be sent every time a customer group is created.
+- Customer group deletion: a webhook will be sent every time a customer group is deleted.
+- Customer group update: a webhook will be sent every time a customer group is updated.
+- Customer creation: a webhook will be sent every time a new customer is created.
+- Customer deletion: a webhook will be sent every time a customer record is deleted.
+- Customer disable: a webhook will be sent every time a customer account is disabled.
+- Customer enable: a webhook will be sent every time a customer account is enabled.
+- Customer update: a webhook will be sent every time a customer record is updated.
+- Draft order creation: a webhook will be sent every time a draft order is created.
+- Draft order deletion: a webhook will be sent every time a draft order is deleted.
+- Draft order update: a webhook will be sent every time a draft order has been updated.
+- Fulfillment creation: a webhook will be sent every time a fulfillment is created on an order.
+- Fulfillment update: a webhook will be sent every time fulfillment is updated on an order.
+- Order cancellation: a webhook will be sent every time an order is canceled.
+- Order creation: a webhook will be sent every time an order is created.
+- Order deletion: a webhook will be sent every time an order is deleted.
+- Order fulfillment: a webhook will be sent every time an order is fulfilled.
+- Order payment: a webhook will be sent every time an order has been paid.
+- Order update: a webhook will be sent every time an order has been updated.
+- Product creation: a webhook will be sent every time a product has been created.
+- Product deletion: a webhook will be sent every time a product has been deleted.
+- Product update: a webhook will be sent every time a product has been updated.
+- Refund create: a webhook will be sent every time a refund is issued.
+- Shop update: a webhook will be sent every time a shop property is updated.
+- Theme creation: a webhook will be sent every time a theme is created.
+- Theme deletion: a webhook will be sent every time a theme is deleted.
+- Theme update: a webhook will be sent every time a theme property is updated.
